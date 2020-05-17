@@ -8,8 +8,9 @@
       </div>
       <div class="footer-link-col w-clearfix w-col w-col-9">
         <div class="social-icons-footer">
-        <a href="https://www.instagram.com/benwittbrodt/" target="_blank" class="social_footer instagram w-inline-block"><img src="<?php echo get_theme_file_uri('/images/social_footer-instagram.png') ?>" style="width: 35px"></a>
-        <a href="https://www.facebook.com/benwittbrodt" target="_blank" class="social_footer facebook w-inline-block"><img src="<?php echo get_theme_file_uri('/images/social_footer-facebook.png') ?>" style="width: 35px"></a>
+        <a href="https://www.instagram.com/jillian.weinzapfel" target="_blank" class="social_footer instagram w-inline-block"><img src="<?php echo get_theme_file_uri('/images/social_footer-instagram.png') ?>" style="width: 35px"></a>
+        <a href="https://www.facebook.com/jillianweinzapfelactress" target="_blank" class="social_footer facebook w-inline-block"><img src="<?php echo get_theme_file_uri('/images/social_footer-facebook.png') ?>" style="width: 35px"></a>
+        <a href="https://www.youtube.com/channel/UCsIWHR6iVvoXvZm4zyFFTtA" target="_blank" class="social_footer facebook w-inline-block"><img src="<?php echo get_theme_file_uri('/images/youtube-white.svg') ?>" style="width: 35px"></a>
         </div>
       </div>
       
@@ -22,3 +23,4 @@
 
 </body>
 </html>
+
