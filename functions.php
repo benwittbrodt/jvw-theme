@@ -23,3 +23,21 @@ function benwittbrodt_features() {
 
 add_action('after_setup_theme', 'benwittbrodt_features');
 
+function jvw_post_types() {
+  //Photo Post Type
+  register_post_type('photos',array(
+      'supports' => array('title','editor', 'thumbnail', 'excerpt'),
+      'rewrite' => array('slug' => 'photos'),
+      'has_archive' => true,
+      'public' => true,
+      'menu_icon' => 'dashicons-format-image',
+      'labels' => array(
+          'name' => 'Photos',
+          'add_new_item' => 'Add New Photo',
+          'edit_item' => 'Edit Photo',
+          'all_items' => 'All Photos',
+          'singular_name' => 'Photo'
+      )
+  ));
+}
+add_action('init','jvw_post_types');
